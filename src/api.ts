@@ -5,7 +5,7 @@ type Options = {
 };
 
 export default defineOperationApi<Options>({
-	id: 'custom',
+	id: 'operation-xml-parser',
 	handler: ({ text }) => {
 		console.log(text);
 	},

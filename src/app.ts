@@ -1,10 +1,10 @@
 import { defineOperationApp } from '@directus/extensions-sdk';
 
 export default defineOperationApp({
-	id: 'custom',
-	name: 'Custom',
-	icon: 'box',
-	description: 'This is my custom operation!',
+  id: 'operation-xml-parser',
+  name: 'Operation XML parser',
+  icon: 'electric_bolt',
+  description: 'This operation parses XML string into a JSON object.',
 	overview: ({ text }) => [
 		{
 			label: 'Text',
