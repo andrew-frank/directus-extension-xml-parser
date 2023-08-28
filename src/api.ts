@@ -1,4 +1,5 @@
 import { defineOperationApi } from '@directus/extensions-sdk';
+import { XMLParser } from "fast-xml-parser";
 
 type Options = {
 	text: string;
@@ -6,7 +7,10 @@ type Options = {
 
 export default defineOperationApi<Options>({
 	id: 'operation-xml-parser',
-	handler: ({ text }) => {
-		console.log(text);
+	handler: (options) => {
+		const { text } = options
+		const parser = new XMLParser();
+		const jObj = parser.parse(text);
+		return jObj
 	},
 });
