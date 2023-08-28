@@ -1,6 +1,6 @@
 {
 	"name": "directus-extension-directus-operation-xml-parser",
-	"description": "Please enter a description for your extension",
+	"description": "Directus operation that parses XML string and turns it into a JSON object",
 	"icon": "extension",
 	"version": "1.0.0",
 	"keywords": [

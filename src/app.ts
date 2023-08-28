@@ -2,19 +2,19 @@ import { defineOperationApp } from '@directus/extensions-sdk';
 
 export default defineOperationApp({
   id: 'operation-xml-parser',
-  name: 'Operation XML parser',
+  name: 'XML parser',
   icon: 'electric_bolt',
-  description: 'This operation parses XML string into a JSON object.',
-	overview: ({ text }) => [
+  description: 'This operation parses XML string and turns it into a JSON object.',
+	overview: ({ xml }) => [
 		{
-			label: 'Text',
-			text: text,
+			label: 'XML',
+			text: xml,
 		},
 	],
 	options: [
 		{
-			field: 'text',
-			name: 'Text',
+			field: 'xml',
+			name: 'XML',
 			type: 'string',
 			meta: {
 				width: 'full',
