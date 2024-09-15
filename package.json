@@ -1,14 +1,15 @@
 {
-	"name": "directus-extension-directus-operation-xml-parser",
+	"name": "directus-extension-xml-parser",
 	"description": "Directus operation that parses XML string and turns it into a JSON object",
-	"icon": "extension",
 	"version": "1.0.0",
+	"author": "andrew-frank",
 	"keywords": [
 		"directus",
 		"directus-extension",
 		"directus-custom-operation"
 	],
 	"type": "module",
+	"license": "MIT",
 	"directus:extension": {
 		"type": "operation",
 		"path": {
@@ -21,6 +22,8 @@
 		},
 		"host": "^10.1.9"
 	},
+	"files": ["dist"],
+	"icon": "code",
 	"scripts": {
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",

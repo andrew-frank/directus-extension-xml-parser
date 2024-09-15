@@ -1,4 +1,17 @@
-# directus-operation-xml-parser
+# directus-extension-xml-parser
+
+Directus operation that parses XML body and outputs it as a JSON file.
+
+## Usage
+
+Provide the XML string inside the `XML` field of the operation.
+
+![XML Parser Operation](screenshot.jpg)
+
+Example input:
+```
+<?xml version=\"1.0\" encoding=\"UTF-16\"?><film><title>Magnolia</title><director>Paul Thomas Anderson</director><year>1999</year><duration>188</duration><genre>Drama</genre></film>
+```
 
 ## Build and install in Directus
 
