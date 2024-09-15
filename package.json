@@ -1,7 +1,7 @@
 {
 	"name": "directus-extension-xml-parser",
 	"description": "Directus operation that parses XML string and turns it into a JSON object",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"author": "andrew-frank",
 	"keywords": [
 		"directus",
