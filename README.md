@@ -7,6 +7,7 @@ Directus operation that parses XML body and outputs it as a JSON file.
 Provide the XML string inside the `XML` field of the operation.
 
 ![XML Parser Operation](screenshot.jpg)
+![XML Parser Operation](https://raw.githubusercontent.com/andrew-frank/directus-extension-xml-parser/main/screenshot.jpg)
 
 Example input:
 ```

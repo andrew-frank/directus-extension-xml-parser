@@ -1,7 +1,7 @@
 {
 	"name": "directus-extension-xml-parser",
 	"description": "Directus operation that parses XML string and turns it into a JSON object",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"author": "andrew-frank",
 	"keywords": [
 		"directus",
@@ -24,6 +24,10 @@
 	},
 	"files": ["dist"],
 	"icon": "code",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/andrew-frank/directus-extension-xml-parser.git"
+  },
 	"scripts": {
 		"build": "directus-extension build",
 		"dev": "directus-extension build -w --no-minify",
